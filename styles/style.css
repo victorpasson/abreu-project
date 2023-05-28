@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+    background: #f4f2ec url("../imagens/fundo.png") repeat-x top left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.bold-item {
+    font-weight: bold;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+
+}
+
+#container > header {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#container > header h1 {
+    text-indent: -9000px;
+    background: url("../imagens/logo.png") no-repeat;
+    width: 248px;
+    height:20px;
+}
+
+#menu-top {
+    flex-grow: 1;
+}
+
+#menu-top ul {
+    float: right;
+    text-align: center;
+}
+
+#menu-top li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#menu-top li a {
+    font-size: 0.8em;
+    color: #009fa4;
+}
+
+#menu-top li a:hover {
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+#container > main {
+    display: flex;
+    flex-direction: row;
+}
+
+#container > main h3 {
+    font-size: 0.9em;
+    color: #0952B0;
+    text-transform: uppercase;
+    font-weight: 100px;
+    margin-bottom: 15px;
+}
+
+#section-left {
+    margin-right: 15px;
+}
+
+#section-left > section {
+    width: 50%;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+#section-left #content-right {
+    float: right;
+}
+
+#section-left #content-left {
+    float: left;
+}
+
+#section-left article {
+    margin-bottom: 20px;
+}
+
+#section-left article ul {
+    list-style: disc inside;
+    font-size: 0.8em;
+    padding: 0 20px;
+}
+
+#section-left article ul li {
+    margin: 0 0 3px 0;
+}
+
+#section-left article ul li a {
+    color: #000;
+}
+
+#section-left article ul li a:hover {
+    color: #0952B0;
+}
+
+#section-left article p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+#section-left article span.leiamais a {
+    font-size: 0.8em;
+    color: #0952B0;
+}
+
+#section-left article span.leiamais a:hover {
+    color: #009fa4;
+}
+
+#section-right #agendamento {
+    margin-top: 10px;
+    background-color: #92A2A8;
+    padding: 20px;
+}
+
+#section-right #agendamento > form {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#section-right #agendamento > form #date {
+    width: 80px;
+    height: 25px;
+    border: 0.5px solid black;
+}
+
+#section-right #agendamento > form #email {
+    width: 140px;
+    height: 25px;
+    border: 0.5px solid black;
+}
+
+#section-right #agendamento > form input[type="submit"] {
+    margin-top:7px;
+    font-size: 1.2em;
+    background-color: #192735;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 70px 15px 70px;
+}
+
+#section-right #fotos {
+    background-color: #cdccce;
+    padding: 15px 25px;
+}
+
+#section-right #fotos ul {
+    margin: 14px 0 14px 22px;
+}
+
+#section-right #fotos li {
+    display: inline;
+    width: 126px;
+    height: 133px;
+}
+
+#section-right #fotos img {
+    background: url("../imagens/fundo-foto.png") no-repeat center top;
+    padding: 20px;
+}
+
+#container > footer {
+    background: url("../imagens/fundo-rodape.png") no-repeat top center;
+}
+
+#container > footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+    margin: 20px 0 50px 0 ;
+}
+
+#container > footer > nav {
+    margin: 30px 0 20px 0;
+}
+
+#container > footer > nav li {
+    display: inline;
+}
+
+#container > footer > nav li a {
+    padding: 10px;
+    text-transform: lowercase;
+    color: #0952B0;
+}
+
+#container > footer > nav li a:hover {
+    color: #009fa4;
+}
