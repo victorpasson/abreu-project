@@ -1,4 +1,4 @@
-# Projecto - Abreu Advocacia
+# Projeto - Abreu Advocacia
 
 Repositório que contém o código HTML e CSS para a solução do projeto Abreu Advocacia. O objetivo principal é a formulação de uma página inicial para o escritório de advocacia Abreu.
 
